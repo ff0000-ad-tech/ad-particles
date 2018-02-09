@@ -15,9 +15,9 @@
 	"author": "Nico Hsieh",
 	"license": "MIT",
 	"dependencies": {
-		"ad-geom": "git+https://github.com/ff0000-ad-tech/ad-geom.git",
-		"ad-ui": "git+https://github.com/ff0000-ad-tech/ad-ui.git",
-		"ad-utils": "git+https://github.com/ff0000-ad-tech/ad-utils.git"
+		"@ff0000-ad-tech/ad-geom": "latest",
+		"@ff0000-ad-tech/ad-ui": "latest",
+		"@ff0000-ad-tech/ad-utils": "latest"
 	},
 	"devDependencies": {
 		"eslint": "^4.16.0",
