@@ -1,26 +1,31 @@
 {
-	"name": "ad-particles",
-	"version": "1.0.0",
+	"name": "@ff0000-ad-tech/ad-particles",
+	"publishConfig": {
+		"access": "public"
+	},
+	"version": "1.0.1",
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"pub": "np"
 	},
 	"repository": {
-		"type": "git"
+		"type": "git",
+		"url": "https://github.com/ff0000-ad-tech/ad-particles.git"
 	},
-	"author": "RED Interactive Agency",
-	"license": "ISC",
+	"author": "Nico Hsieh",
+	"license": "MIT",
 	"dependencies": {
-		"ad-geom": "git+https://github.com/ff0000-ad-tech/ad-geom.git",
-		"ad-ui": "git+https://github.com/ff0000-ad-tech/ad-ui.git",
-		"ad-utils": "git+https://github.com/ff0000-ad-tech/ad-utils.git"
+		"@ff0000-ad-tech/ad-geom": "latest",
+		"@ff0000-ad-tech/ad-ui": "latest",
+		"@ff0000-ad-tech/ad-utils": "latest"
 	},
 	"devDependencies": {
 		"babel-eslint": "^8.2.1",
 		"eslint": "^4.16.0",
 		"eslint-config-prettier": "^2.9.0",
 		"eslint-plugin-prettier": "^2.5.0",
+		"np": "^2.19.0",
 		"prettier": "^1.10.2"
 	}
 }
