@@ -9,9 +9,11 @@
 [![npm license](https://img.shields.io/npm/l/@ff0000-ad-tech%2Fad-particles.svg?style=flat-square)](https://github.com/ff0000-ad-tech/ad-particles/blob/master/LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
+* * *
+
 # Particles
 
-* * *
+Particle Emitter system
 
 ## API
 
@@ -54,5 +56,6 @@
 * <a href="./docs/new_Graphic.md#new_Graphic.Rect_new">new Rect(width, height, style)</a>
 ## <a name="Graphic.Sprite" href="./docs/Graphic.Sprite.md">Graphic.Sprite</a>
 * <a href="./docs/new_Graphic.md#new_Graphic.Sprite_new">new Sprite(image, size, style, spriteSetting)</a>
+
 
 * * *
